@@ -7,6 +7,39 @@ import matplotlib.pyplot as plt
 
 # Streamlit App Title
 st.title("🩺 Breast Cancer Prediction App")
+# Display Profile Section (Non-Disruptive)
+st.markdown("""
+# 🌐 Big Data Analytics: Unveiling Insights from the World's Information
+
+## 📊 The Power of Data
+In today's world, data is more than numbers—it's the silent force driving decisions in every industry.  
+From predicting customer behavior to optimizing supply chains, **Big Data Analytics** helps us:  
+- **Discover Patterns** that shape economies.  
+- **Uncover Insights** that guide innovations.  
+- **Make Decisions** that impact lives.  
+
+🔍 **Because data, when understood, becomes knowledge—and knowledge fuels progress.**
+
+---
+
+## 👨‍💻 About Me: A Curious Data Explorer
+Hi, I'm **Dayo Kolawole**, a passionate and curious explorer of the **Big Data universe**.  
+
+I come from a **non-technical background**—with no prior experience in **Statistics, Mathematics, or IT**.  
+But through **persistent consistency, curiosity, and the power of modern tools**, I've embarked on a journey to:  
+
+- 📖 **Learn how data shapes our world.**  
+- 🛠️ **Build real-world analytics applications.**  
+- 🌐 **Understand the language of data to tell compelling stories.**  
+
+This app represents just one step in my journey—a testament to the fact that **curiosity, dedication, and continuous learning** can bridge any knowledge gap.  
+
+💡 **Because the world of data doesn't require perfection—just a willingness to explore.**
+
+---
+
+🚀 **Welcome to My Data Journey.** Let's keep exploring, learning, and unlocking the power of data—one insight at a time.  
+""")
 
 # ✅ Load the trained model
 model = None
